@@ -1,0 +1,50 @@
+.container{
+    
+    position: relative;
+    text-wrap: nowrap;
+    right: 25%;
+    bottom: 4rem;
+}
+.content{
+    display:flex;
+    flex-direction:row;
+}
+.text{
+    position: relative;
+    bottom: 2rem;
+    left: 11%;
+}
+.title{
+    position: relative;
+    left: 35%;
+    opacity: 0.5;
+}
+.title p{
+    position:relative;
+    bottom:4.5rem;
+    color:white;
+}
+.text p{
+    font-size:2.4.rem;
+    color:white;
+    font-weight:600;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 0.5rem;
+    right: 45%;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+}
+
+.btn:hover {
+    background-color: #F9004D;  
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);  
+    transform: translateY(-2px);  
+}

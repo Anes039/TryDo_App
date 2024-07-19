@@ -1,0 +1,45 @@
+
+.upper_content{
+    display:flex;
+    flex-direction:column;
+    padding-top:4rem;
+    margin: auto;
+    align-items: center;
+}
+.upper_content h3 {
+    font-size: 2.4rem;
+    position: relative;
+    top: 2rem;
+    padding-right: 19rem;
+    
+}
+.upper_content p {
+    text-align: left;
+    width: min(100%, 500px);
+    color: gray;
+}
+
+.ourFunFacts{
+    display:flex;
+    flex-direction:column;
+    padding-bottom:3rem;
+}
+.text {
+    position: relative;
+    top:1.8rem;
+    font-size:2rem;
+    font-weight:500;
+}
+.item_container ul{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+}
+.container{
+    background:#FFFFFF;
+}
+.li p{
+    color:red;
+}
+.carousel {
+    padding-top:2.8rem;
+}

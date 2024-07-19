@@ -1,0 +1,40 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    background:#F8F9FC;
+    padding-bottom:2.5rem;
+}
+.text {
+    padding-top:2rem;
+}
+.text p{
+    font-size: 2rem;
+    text-align: start;
+    width: min(88%, 665px);
+    margin:auto;
+}
+.title p{
+    position:relative;
+    top:2.9rem;
+    opacity:0.6;
+}
+.photo_list{
+    display:grid;
+    padding-top:7rem;
+    gap:1rem;
+    padding-bottom:1rem;
+}
+.first_row, .second_row{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:1rem;
+    margin:auto;
+}
+.second_row{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    width: min(100%, 244px);
+    margin:auto;
+}

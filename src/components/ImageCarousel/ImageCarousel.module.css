@@ -1,0 +1,12 @@
+.card{
+    width:min(100%,400px) !important;
+    outline:0;
+   
+}
+.card img{
+    width:min(100%,405px);
+    min-height:23rem;
+}
+.next{
+    right:25px !important;
+}

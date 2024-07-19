@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+import MainHeader from './components/MainHeader/MainHeader';
 import './App.css';
-
+import About from './components/About/About';
+import Service from './components/Service/Service';
+import OurWork from './components/OurWorks/OurWorks';
+import CompanyStaff from './components/CompanyStaff/CompanyStaff';
+import Footer from './components/Footer/Footer';
 function App() {
+  const items = [{
+    img:'https://trydo.rainbowit.net/assets/images/icons/icon-01.png',
+    title:'Business Stratagy',
+    text:'There are many variations of passages of Lorem Ipsum available, but the majority have suffered.',
+  },
+  {
+    img:'https://trydo.rainbowit.net/assets/images/icons/icon-02.png',
+    title:'Website Development',
+    text:'There are many variations of passages of Lorem Ipsum available, but the majority have suffered.',
+  },
+  {
+    img:'https://trydo.rainbowit.net/assets/images/icons/icon-03.png',
+    title:'Marketing & Reporting',
+    text:'TThere are many variations of passages of Lorem Ipsum available, but the majority have suffered.',
+  }
+]
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <MainHeader items={items} />
+        <About />
+        <Service />
+        <OurWork />
+        <CompanyStaff />
+        <Footer />
     </div>
   );
 }

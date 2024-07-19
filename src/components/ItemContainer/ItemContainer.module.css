@@ -1,0 +1,28 @@
+
+.content{
+    width: min(87%, 476px);
+    text-align: left;
+}
+.content img{
+    right:0;
+}
+.title {
+    color:white;
+    font-size:1.4rem;
+    padding-top:15px;
+}
+.text > p{
+    color:gray;
+    padding-top:1rem;
+    line-height:25px;
+} 
+@media (max-width:1090px){
+    .container{
+        padding-bottom:5%;
+    }
+    
+    .title {
+        font-size:1.2rem;
+        text-wrap:nowrap;
+    }
+}
