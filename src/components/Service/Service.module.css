@@ -67,21 +67,17 @@ ul li{
     top:2rem;
 }
 @media (max-width:1090px) {
-    .container {
-        top: 5rem;
-        right: 2.5rem;
+    .service_container {
+        display:initial;
     }
+    
     .service_content {
         flex:1;
         position: relative;
         top: 1rem;
     }
     .service_content p{
-        width: min(459%, 501px);
         font-size: 0.9rem;
-        position: relative;
-        bottom: 13.5rem;
-        left:24%;
     }
     .line{
         display:none;

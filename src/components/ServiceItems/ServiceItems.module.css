@@ -52,9 +52,7 @@
     .container{
         background: linear-gradient(90deg, rgba(244,41,54,1) 0%, rgba(237,31,15,1) 54%, rgba(243,92,139,1) 100%);
         color:white;
-        width: min(96%, 500px);
-        position: relative;
-        right: 21%;
+        width: min(83%, 500px);
         border-radius:1rem;
     
     }

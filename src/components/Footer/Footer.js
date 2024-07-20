@@ -38,8 +38,9 @@ const Footer = () => {
                             <FaTwitter  className={classes.ic}/>
 
                         </div>
-                        </div>
                         <p className={classes.copyright}>Copyright © 2022 Rainbow-Themes. All Rights Reserved.</p>
+                        </div>
+                        
                         </div>
 
                 </div>

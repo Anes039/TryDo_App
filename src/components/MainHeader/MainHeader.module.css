@@ -72,6 +72,7 @@
     /* max-width: 70%; */
     width: min(93%, 882px);
     margin:auto;
+    padding-bottom: 7rem;
 }
 
 .open .menu_list {
